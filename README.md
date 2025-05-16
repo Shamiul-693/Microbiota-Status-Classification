@@ -39,18 +39,18 @@ The dataset contains approximately 10,000 patient records with both numerical an
    pip install shap
 ````
 
-3. Data Preparation:
+## Data Preparation:
 
    * Place your dataset CSV file in the project directory.
    * Run preprocessing scripts to clean, encode, and engineer features.
 
-4. Run Model Training:
+## Run Model Training:
 
    * Execute the provided Jupyter notebooks or Python scripts.
    * Baseline models (Logistic Regression, Random Forest, XGBoost) can be trained first.
    * For transformer models, ensure GPU acceleration is enabled for best performance.
 
-5. Model Evaluation and Interpretation:
+##  Model Evaluation and Interpretation:
 
    * View accuracy, precision, recall, F1-score, ROC AUC metrics.
    * Generate confusion matrices and ROC curves.
