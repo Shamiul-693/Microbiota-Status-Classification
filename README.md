@@ -38,18 +38,18 @@ The dataset contains approximately 10,000 patient records with both numerical an
    pip install pytorch-tabular pytorch-lightning
    pip install shap
 ````
-
+---
 ## Data Preparation:
 
    - **Place your dataset CSV file in the project directory.
    - **Run preprocessing scripts to clean, encode, and engineer features.
-
+---
 ## Run Model Training:
 
    - ** Execute the provided Jupyter notebooks or Python scripts.
    - ** Baseline models (Logistic Regression, Random Forest, XGBoost) can be trained first.
    - **For transformer models, ensure GPU acceleration is enabled for best performance.
-
+---
 ##  Model Evaluation and Interpretation:
 
    - **View accuracy, precision, recall, F1-score, ROC AUC metrics.
@@ -60,7 +60,7 @@ The dataset contains approximately 10,000 patient records with both numerical an
 
 ## Key Results
 
-  Baseline Models:
+Baseline Models:
 
   - ** Logistic Regression achieved \~52% accuracy, near random baseline.
   - ** Random Forest and XGBoost showed overfitting with high training but low test accuracy (\~49-50%).
