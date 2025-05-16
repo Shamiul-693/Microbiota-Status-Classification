@@ -31,18 +31,18 @@ The dataset contains approximately 10,000 patient records with both numerical an
 
    Use Python 3.8+ with the following packages:
 
-   ```bash
+  
    pip install numpy pandas scikit-learn matplotlib seaborn
    pip install xgboost lightgbm optuna
    pip install torch torchvision torchaudio  # For ANN and transformer models
    pip install pytorch-tabular pytorch-lightning
    pip install shap
-````
+
 ---
 ## Data Preparation:
 
-   - **Place your dataset CSV file in the project directory.
-   - **Run preprocessing scripts to clean, encode, and engineer features.
+   Place your dataset CSV file in the project directory.
+   Run preprocessing scripts to clean, encode, and engineer features.
 ---
 ## Run Model Training:
 
