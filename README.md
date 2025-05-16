@@ -62,7 +62,7 @@ Use SHAP or feature importance plots for interpretability.
 
 Baseline Models:
 
- Logistic Regression achieved \~52% accuracy, near random baseline.
+- ** Logistic Regression achieved \~52% accuracy, near random baseline.
  Random Forest and XGBoost showed overfitting with high training but low test accuracy (\~49-50%).
 Advanced Models:
 
