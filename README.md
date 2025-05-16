@@ -1,5 +1,5 @@
 
-````markdown
+
 # Microbiota Status Classification
 
 ## Project Overview
@@ -39,18 +39,18 @@ The dataset contains approximately 10,000 patient records with both numerical an
    pip install shap
 ````
 
-3. **Data Preparation:**
+3. Data Preparation:
 
    * Place your dataset CSV file in the project directory.
    * Run preprocessing scripts to clean, encode, and engineer features.
 
-4. **Run Model Training:**
+4. Run Model Training:
 
    * Execute the provided Jupyter notebooks or Python scripts.
    * Baseline models (Logistic Regression, Random Forest, XGBoost) can be trained first.
    * For transformer models, ensure GPU acceleration is enabled for best performance.
 
-5. **Model Evaluation and Interpretation:**
+5. Model Evaluation and Interpretation:
 
    * View accuracy, precision, recall, F1-score, ROC AUC metrics.
    * Generate confusion matrices and ROC curves.
@@ -60,11 +60,11 @@ The dataset contains approximately 10,000 patient records with both numerical an
 
 ## Key Results
 
-* **Baseline Models:**
+  Baseline Models:
 
   * Logistic Regression achieved \~52% accuracy, near random baseline.
   * Random Forest and XGBoost showed overfitting with high training but low test accuracy (\~49-50%).
-* **Advanced Models:**
+Advanced Models:
 
   * LightGBM and ANN models showed incremental improvements but limited by dataset features.
   * Hyperparameter tuning with Optuna improved XGBoost performance moderately.
