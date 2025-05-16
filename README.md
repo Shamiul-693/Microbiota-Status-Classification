@@ -46,15 +46,15 @@ The dataset contains approximately 10,000 patient records with both numerical an
 ---
 ## Run Model Training:
 
-   - ** Execute the provided Jupyter notebooks or Python scripts.
-   - ** Baseline models (Logistic Regression, Random Forest, XGBoost) can be trained first.
-   - **For transformer models, ensure GPU acceleration is enabled for best performance.
+ Execute the provided Jupyter notebooks or Python scripts.
+ Baseline models (Logistic Regression, Random Forest, XGBoost) can be trained first.
+ For transformer models, ensure GPU acceleration is enabled for best performance.
 ---
 ##  Model Evaluation and Interpretation:
 
-   - **View accuracy, precision, recall, F1-score, ROC AUC metrics.
-   - **Generate confusion matrices and ROC curves.
-   - **Use SHAP or feature importance plots for interpretability.
+View accuracy, precision, recall, F1-score, ROC AUC metrics.
+Generate confusion matrices and ROC curves.
+Use SHAP or feature importance plots for interpretability.
 
 ---
 
@@ -62,27 +62,27 @@ The dataset contains approximately 10,000 patient records with both numerical an
 
 Baseline Models:
 
-  - ** Logistic Regression achieved \~52% accuracy, near random baseline.
-  - ** Random Forest and XGBoost showed overfitting with high training but low test accuracy (\~49-50%).
+ Logistic Regression achieved \~52% accuracy, near random baseline.
+ Random Forest and XGBoost showed overfitting with high training but low test accuracy (\~49-50%).
 Advanced Models:
 
-  - ** LightGBM and ANN models showed incremental improvements but limited by dataset features.
-  - ** Hyperparameter tuning with Optuna improved XGBoost performance moderately.
-  - ** Transformer-Based Model (TabTransformer):**
+LightGBM and ANN models showed incremental improvements but limited by dataset features.
+ Hyperparameter tuning with Optuna improved XGBoost performance moderately.
+Transformer-Based Model (TabTransformer):**
 
-  - ** Demonstrated promising ability to model complex feature interactions.
-  - ** Provided better F1-scores and ROC AUC metrics compared to classical models.
+ Demonstrated promising ability to model complex feature interactions.
+ Provided better F1-scores and ROC AUC metrics compared to classical models.
 ## Feature Importance:
 
-  - ** Gut-related features such as symptom scores, plant-to-animal protein ratio, and fiber intake were among the top contributors.
-  - ** Lifestyle and diet variables also played important roles in predictions.
+ Gut-related features such as symptom scores, plant-to-animal protein ratio, and fiber intake were among the top contributors.
+ Lifestyle and diet variables also played important roles in predictions.
 
 ---
 
 ## Notes
 
-- ** Achieving very high accuracy (>80%) is challenging due to inherent overlap and noise in the target labels and features.
-- ** Future work includes integrating microbiome sequencing data and other biomarkers for improved prediction.
-- ** Model explainability remains a focus to ensure clinical relevance and trustworthiness.
+ Achieving very high accuracy (>80%) is challenging due to inherent overlap and noise in the target labels and features.
+ Future work includes integrating microbiome sequencing data and other biomarkers for improved prediction.
+ Model explainability remains a focus to ensure clinical relevance and trustworthiness.
 
 --
